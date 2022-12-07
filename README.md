@@ -13,3 +13,17 @@ steps used:
 4. create file dev-requirements.txt added installations with there versions
 5. create diretory tests, with the file test_template.py with a template tests
 6. create diretory practices, with the file template.py, with the feature to test.
+
+# TypeScript diretory
+
+Initializated the npm package, to install all the dependencies need it:
+
+steps used:
+
+1. npm init -y
+2. npm i typescript
+3. npx tsc --init
+4. configurate tsconfig.json
+5. npm i -D mocha chai sinon
+6. npm i -D @types/mocha @types/chai @types/sinon
+7. npm i -D ts-node-dev
