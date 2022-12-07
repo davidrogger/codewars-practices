@@ -1,2 +1,6 @@
+# Python
 .py*
 .venv
+
+# Typescript
+node_modules
