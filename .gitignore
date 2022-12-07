@@ -1,6 +1,7 @@
 # Python
 .py*
 .venv
+__pycache__
 
 # Typescript
 node_modules
