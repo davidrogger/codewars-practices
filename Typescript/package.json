@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsnd practices/template.ts",
-    "test": "mocha tsnd ./tests/*$NAME*.{test,spec}.ts -t 10000 --exit"
+    "test": "mocha -r ts-node/register ./tests/*$NAME*.{test,spec}.ts --exit"
   },
   "keywords": [],
   "author": "",
