@@ -1,5 +1,5 @@
 function practiceFile(phrase: string): string {
-  return phrase
+  return phrase;
 }
 
-export default practiceFile
+export default practiceFile;
