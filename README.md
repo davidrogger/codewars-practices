@@ -20,10 +20,15 @@ Initializated the npm package, to install all the dependencies need it:
 
 steps used:
 
-1. npm init -y
-2. npm i typescript
-3. npx tsc --init
-4. configurate tsconfig.json
-5. npm i -D mocha chai sinon
-6. npm i -D @types/mocha @types/chai @types/sinon
-7. npm i -D ts-node-dev
+01. npm init -y
+02. npm i typescript
+03. npx tsc --init
+04. configurate tsconfig.json
+05. npm i -D mocha chai sinon
+06. npm i -D @types/mocha @types/chai @types/sinon
+07. npm i -D ts-node-dev
+08. npm i -D eslint
+09. npx eslint --init
+10. npm i -D eslint-config-airbnb-base eslint-config-airbnb-typescript
+11. npm i -D eslint-plugin-import eslint-plugin-mocha eslint-plugin-sonarjs
+12. add rules into the .eslintrc.json
