@@ -7,7 +7,7 @@ def test_convert_to_camel_case():
         ("The_Stealth_Warrior", "TheStealthWarrior"),
         ("", ""),
         ("A-B-C", "ABC"),
-        ("A-Cat_was_Hungray", "ACatWasHungry"),
+        ("A-Cat_was_Hungry", "ACatWasHungry"),
         ("a_Pippi-was-pippi", "aPippiWasPippi"),
         ("The_pippi-was_Savage", "ThePippiWasSavage"),
         ("The_PippiWasPippi", "ThePippiWasPippi"),
