@@ -23,6 +23,8 @@ describe("Testing is valid walk", () => {
         ['n', 'n', 'n', 's', 'n', 's', 'n', 's', 'n', 's'],
         ['s', 's', 's', 's', 's', 's', 'n', 's', 'n', 's'],
         ['n', 'n', 'n', 'w', 'w', 'w', 's', 's', 's', 'e'],
+        ['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 'n'],
+        ['n', 'w', 'n', 'w', 'n', 'w', 'n', 'w', 'n', 'w'],
       ]
       directions.forEach((direction: string[]) => {
         expect(isValidWalk(direction)).to.be.eq(false)
